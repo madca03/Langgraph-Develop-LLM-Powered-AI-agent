@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+wheels/
+*.egg-info/
+*.egg
+MANIFEST
+sdist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Unit test / coverage reports
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+
+# Type checkers / linters
+.mypy_cache/
+.ruff_cache/
+.pytype/
+pyre/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# LangGraph
+.langgraph_api/
+
+# IDEs
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
